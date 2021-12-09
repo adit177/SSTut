@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="stt.css">
+
+    <style>
+        #sst {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 400%;
+
+        }
+
+        #navbarSupportedContent .nav-item:hover {
+            color: blanchedalmond;
+        }
+
+        .d-flex .active:hover {
+            box-shadow: 0 9px 18px 0 #333333, 0 8px 24px 0 #333333;
+        }
+
+
+
+        .bgc {
+            background-color: rgb(219, 233, 217);
+        }
+
+
+
+
+
+        #department {
+            background-image: url('book.jpg');
+            background-color: rgb(58, 48, 48);
+            background-blend-mode: darken;
+            color: cornsilk;
+            justify-content: center;
+            text-align: center;
+        }
+
+        #deimg {
+            width: 150px;
+            border-radius: 20%;
+            margin: 6px;
+
+        }
+
+        #deimg:hover {
+            box-shadow: 0 9px 18px 0 #333333, 0 8px 24px 0 #333333;
+            transition: 70ms;
+
+            width: 160px;
+            ;
+
+        }
+
+        #NEWS {
+            height: 50px;
+        }
+
+        #Bhagwan {
+            height: 280px;
+            width: 50%;
+            border-radius: 30%;
+            margin-left: 180px;
+            margin-top: 20px;
+
+        }
+
+      
+
+        .news {
+            height: 350px;
+            border: solid rgb(87, 84, 84) 2px;
+            padding: 0;
+
+        }
+
+        footer {
+            background-image: url('black.jpg');
+            color: white;
+            text-align: center;
+            justify-content: center;
+        }
+
+        @media(max-width:950px) {
+            #Bhagwan {
+                margin-left: 140px;
+                height: 240px;
+            }
+        }
+        @media(min-width:550px) {
+            #Bhagwan:hover {
+            box-shadow: 0 9px 18px 0 #333333, 0 8px 24px 0 #333333;
+            transition: 100ms;
+            height: 280px;
+            width: 51%%;
+        }
+        }
+        
+
+        @media(max-width:767px) {
+            #Bhagwan {
+                margin-bottom: 30px;
+                margin-left: 150px;
+                width: 50%;
+            }
+
+            
+        }
+
+        @media(max-width:640px) {
+            #Bhagwan {
+                margin-bottom: 30px;
+                margin-left: 120px;
+                width: 60;
+                height: 220px;
+            }
+            
+        }
+
+            
+        }
+
+        @media(max-width:550px) {
+            #Bhagwan {
+                margin-bottom: 30px;
+                margin-left: 70px;
+                width: 65%;
+                height: 220px;
+            }
+
+            
+        }
+
+        @media(max-width:470px) {
+            #Bhagwan {
+                margin-bottom: 30px;
+                margin-left: 50px;
+                width: 70%;
+                height: 200px;
+            }
+            
+        }
+
+        @media(max-width:400px) {
+            .gi{
+                display: none;
+            }
+            .notice {
+                font-size: 20px;
+            }
+
+            
+
+            #Bhagwan {
+                margin-left: 40px;
+                width: 70%;
+                height: 190px;
+            }
+            #sst{
+                font-size: 45px;
+            }
+        }
+        @media(max-width:353px){
+            .notice{
+                font-size: 18px;
+            }
+        }
+        @media(max-width:321px){
+            .notice{
+                font-size: 15px;
+            }
+        }
+
+
+
+        @media(max-width: 800px) {
+            #deimg {
+                display: none;
+            }
+
+            #aca {
+                border: 2px gray solid;
+                padding: 4px;
+                margin-top: 4px;
+                margin-bottom: 5px;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+
+            #aca:hover {
+                background-color: black;
+                cursor: pointer;
+                transition: 20ms;
+                box-shadow: 0 9px 18px 0, 0 8px 24px 0;
+            }
+        }
+        @media(max-width:291px){
+            .xi{
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body style="margin: 0;">
+    <div class="">
+        <span>
+            <h1 class="fw-bold " id="sst">S.S Tutorial <img class="rounded float-end d-none d-md-inline"
+                    src="https://media.istockphoto.com/vectors/hindu-goddess-saraswati-vector-hand-drawn-vector-id939144710?k=20&m=939144710&s=612x612&w=0&h=WGO_fVi4I6G00epnFpouz0jHznDeeIuDWRjPAfdjlX8="
+                    width="5.5%" alt=""></h1>
+        </span>
+
+        <nav class="navbar navbar-expand-md navbar-light sticky-top py-0 " style="background-color: #7550ad;">
+            <div class="container-fluid ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse  navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto  mb-2 mb-lg-0">
+                        <li class="nav-item ">
+                            <a href="P1.html" class="nav-item navbar-brand nav-link "
+                                style="text-decoration:none; font-weight: bolder; ">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Resources.html" target="_blank" class="nav-item active navbar-brand nav-link"
+                                style="text-decoration:none; font-weight: bold;">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="result.html" target="_blank" class="nav-item active navbar-brand nav-link"
+                                style="text-decoration:none; font-weight: bold;">Result</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" style="text-decoration:none; font-weight: bold;"
+                                class="nav-item active navbar-brand nav-link">Fee Structure</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqSvzBZQqpmZPtghjLdQdKwXmnfMvKtZGlZJcCQdTSRCQKntpbBKkvdCWlLndXWVfbGWJV" style="text-decoration:none; font-weight: bold;"
+                                class="nav-item active navbar-brand nav-link">Contact-us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <a style="font-weight: bolder; " class="nav-item  navbar-brand " href="ApplyNow.html"><button
+                                type="button" class="btn active btn-outline-warning"><span>Apply Now</span></button></a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <div class="bgc">
+            <div class="carousel" data-flickity='{ "autoPlay": true }'>
+                <div class="carousel-cell "><img src="c1.jpg" class="cell1" alt=""></div>
+                <div class="carousel-cell "><img src="c2.jpg" class="cell2" alt=""></div>
+                <div class="carousel-cell "><img src="c3.jpg" class="cell3" alt=""></div>
+                <div class="carousel-cell "><img src="c4.jpg" class="cell4" alt=""></div>
+                <div class="carousel-cell1 "><img src="c5.jpg" class="cell5" alt=""></div>
+            </div>
+            <br>
+            
+
+            <section class="container-fluid px-0">
+                <div class="row mt-5 mx-5">
+                    <div class=" col-md-6 news order-2 order-md-1">
+                        <nav class="navbar navbar-dark bg-primary" id="NEWS">
+                            <h4 class="notice"><span class="xi">&nbsp;</span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    fill="currentColor" class="gi bi bi-megaphone " viewBox="0 0 16 16">
+                                    <path
+                                        d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49a68.14 68.14 0 0 0-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 74.663 74.663 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199V2.5zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0zm-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233c.18.01.359.022.537.036 2.568.189 5.093.744 7.463 1.993V3.85zm-9 6.215v-4.13a95.09 95.09 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A60.49 60.49 0 0 1 4 10.065zm-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68.019 68.019 0 0 0-1.722-.082z" />
+                                </svg> Notice & Announcements </h4>
+                        </nav>
+                        <div style="overflow: scroll; height: 296px;" role="alert" class="alert alert-warning">
+                            No current News is available!
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-1 order-md-2">
+                        <img src="ssimg.png" alt="" class="img-fluid" id="Bhagwan">
+                    </div>
+
+
+                </div>
+                <br>
+            </section>
+
+
+            <br>
+            <div id="department">
+                <div style="text-decoration: underline; font-family:'Times New Roman', Times, serif ;
+                    font-weight: bolder;">
+                    <h3>Our Departments</h3>
+                </div>
+                <div class="row "
+                    style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bolder;">
+                    <div class="col-sm-3">
+                        <div><img id="deimg" src="maths.jpg" alt=""></div>
+                        <div id="aca"> Department of Mathematics</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div><img src="chemistry.jpg" id="deimg" alt=""></div>
+                        <div id="aca">Department of Chemistry</div>
+
+                    </div>
+                    <div class="col-sm-3">
+                        <div><img src="physics.jpg" id="deimg" alt=""></div>
+                        <div id="aca">Department of Physics</div>
+
+                    </div>
+                    <div class="col-sm-3">
+                        <div><img src="biology.jpg" id="deimg" alt=""></div>
+                        <div id="aca">Department of Biology</div>
+
+                    </div>
+
+                </div>
+                <br>
+            </div>
+        </div>
+
+        <br>
+        <footer>
+            <br>
+            <h4 style="font-family:'Courier New', Courier, monospace; font-weight: bolder;">Suresh Sir Tutorial,<br>
+                Kashipur(U.K)</h4>
+            <div><span style="color: red;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path
+                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg></span> Kashipur- Kundeshwari road, garhwal sabha <br> Uttarakhand-244713</div>
+            <div><span style="color: seagreen;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path
+                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg></span>&nbsp; 7983000408</div>
+
+            <div>
+                <a href="Aboutus.html" style="text-decoration: none; font-weight: bolder;">About us</a>
+
+            </div>
+
+            <p><span style="font-weight: bolder; font-family:Arial, Helvetica, sans-serif;">Founder</span> :- <span
+                    style="font-family: 'Times New Roman', Times, serif;">Suresh Pandey</span> <br><span
+                    style="font-weight: bolder; font-family: Arial, Helvetica, sans-serif;">Website</span> :- <span
+                    style="font-family: 'Times New Roman', Times, serif;">Aditya Agnihotri</span> <br><span> &#169;
+                    Suresh Sir Tutorial
+                </span>
+                <br> <span><a href="https://www.facebook.com/suresh.pandey.585" style="text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg></a> &nbsp;<a href="" style="text-decoration: none;"> <svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                        </svg></a></span>
+            </p>
+            <br>
+
+        </footer>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+
+</body>
+
+</html>
